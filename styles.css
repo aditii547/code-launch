@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #2c5f2d;
+    color: #ffffff;
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+/* This H1 styling ensures "Aditi Chaudhary" is clearly visible in the header */
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff; /* Ensuring the name is white against the green background */
+}
+
+header nav a {
+    color: #e0e0e0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+section {
+    background: #ffffff;
+    margin: 2.5rem auto;
+    padding: 2rem;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+    color: #2c5f2d;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: disc; /* CHANGED: Replaced sparkle emoji with a standard bullet point (disc) */
+    padding-left: 20px; /* Added padding for standard bullet indent */
+}
+
+ul li {
+    margin-bottom: 0.8rem;
+    /* Removed custom padding-left and pseudo-element for emoji */
+    /* padding-left: 1.5rem; */
+    /* position: relative; */
+}
+
+/* Removed the ul li::before pseudo-element that created the sparkle emoji */
+/*
+ul li::before {
+    content: '✨';
+    position: absolute;
+    left: 0;
+    color: #2c5f2d;
+}
+*/
+
+strong {
+    color: #1e451f;
+}
+
+a {
+    color: #2c5f2d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1e451f;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #e0e0e0;
+    color: #555;
+    margin-top: 3rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.03);
+}
+
+body, header, section, footer {
+    transition: all 0.5s ease-in-out;
+}
